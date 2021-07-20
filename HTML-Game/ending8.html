@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+
+  <div class="defaultMenuDesign">
+   <h1>You narrowly avoid Bowser..</h1>
+   <h3>You chose to take another path and avoid Bowser at all costs. Congratulations! That was the wrong castle anyways.</h3>
+   <h4>Ending ??? (???/7)</h4>
+
+   <img class="imageScale" src="https://lh3.googleusercontent.com/proxy/PSnacSg-HxNWTOLqVZuZyP78T4PkxI5DzkIVJQ3haKZkI4dLuWlr3rVkNdGVPQug3Of_NOVFXChX6-AMfD6ybEvY2J57WmuOcD8ocMT-HFj_R0RwjgcknbUqpuwF74KH6O-DUfn8gZqEROgWZvEgDnI">
+  </div>
+
+  <div class="buttonsDesign">
+    <p class="op3">Restart?</p>
+  </div>
+
+  <script>
+  $(".op3").hover(function() {
+    $(".op3").css("background-color", "lightgrey");
+  });
+
+  $(".op3").mouseleave(function() {
+    $(".op3").css("background-color", "white");
+  });
+
+  $('.op3').click(function() {
+    window.location.href = 'index.html';
+    return false;
+  });
+
+  </script>
+
+</body>
+</html>

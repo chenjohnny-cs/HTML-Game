@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+}
+
+.defaultMenuDesign {
+    padding: 45px;
+    margin: 15px;
+    border: black solid 3px;
+    text-align: center;
+    background-color: white;
+}
+
+.buttonsDesign {
+    display: flex;
+    margin-top: 65px;
+    justify-content: space-around;
+}
+
+.op1,
+.op2 {
+    border: black 5px solid;
+    padding: 13px 17px 13px 17px;
+    background-color: white;
+}
+
+.op3 {
+  border: black 5px solid;
+  padding: 13px 17px 13px 17px;
+  background-color: white;
+  text-align: center;
+}
+
+.imageScale {
+  height: 200px;
+  width: 250px;
+}
+
+.imageScale2 {
+  height: 500px;
+  width: 250px;
+}

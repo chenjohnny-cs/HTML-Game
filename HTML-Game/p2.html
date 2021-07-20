@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+
+  <div class="defaultMenuDesign">
+   <h1>Stage 2</h1>
+   <h3>The Goomba.</h3>
+
+   <img class="imageScale" src="https://pbs.twimg.com/media/EMSRXFBWwAAHS8G.png">
+
+   <h3>Theres a Goomba in the way! What will you choose? to kill or to save.</h3>
+  </div>
+
+  <div class="buttonsDesign">
+    <p class="op1">haha goomba go brrrr</p>
+    <p class="op2">I'm kind, i'll let this one live.</p>
+  </div>
+
+  <script>
+  $(".op1").hover(function() {
+    $(".op1").css("background-color", "lightgrey");
+  });
+
+  $(".op1").mouseleave(function() {
+    $(".op1").css("background-color", "white");
+  });
+
+  $('.op1').click(function() {
+    window.location.href = 'p2inter.html';
+    return false;
+  });
+
+  $(".op2").hover(function() {
+    $(".op2").css("background-color", "lightgrey");
+  });
+
+  $(".op2").mouseleave(function() {
+    $(".op2").css("background-color", "white");
+  });
+
+  $('.op2').click(function() {
+    window.location.href = 'ending2.html'
+  });
+
+  </script>
+
+</body>
+</html>

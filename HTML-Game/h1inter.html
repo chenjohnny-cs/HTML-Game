@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+
+  <div class="defaultMenuDesign">
+   <h1>Hidden Stage : 1 Epilogue</h1>
+  
+
+   <img class="imageScale" src="https://media.globalcitizen.org/thumbnails/d0/3b/d03bf816-e056-44aa-aa40-4a0c90380d04/youth_at_the_crossroads-_world_vision-_flickr-_pedro_fernandes-_hero.jpg__1264x568_q85_crop_subsampling-2.jpg">
+
+   <h3>You took the other path.</h3>
+  </div>
+
+  <div class="buttonsDesign">
+    <p class="op1">Continue...</p>
+  </div>
+
+  <script>
+  $(".op1").hover(function() {
+    $(".op1").css("background-color", "lightgrey");
+  });
+
+  $(".op1").mouseleave(function() {
+    $(".op1").css("background-color", "white");
+  });
+
+  $('.op1').click(function() {
+    window.location.href = 'p2.html';
+    return false;
+  });
+
+  </script>
+
+</body>
+</html>

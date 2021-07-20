@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+
+  <div class="defaultMenuDesign">
+   <h1>Well.... we don't want you here anyway.</h1>
+   <h2>We are just so kind, to give you one more chance.</h2>
+  </div>
+
+  <div class="buttonsDesign">
+    <p class="op1">Sorry! I will begin.</p>
+    <p class="op2">kekw no</p>
+  </div>
+
+  <script>
+  $(".op1").hover(function() {
+    $(".op1").css("background-color", "lightgrey");
+  });
+
+  $(".op1").mouseleave(function() {
+    $(".op1").css("background-color", "white");
+  });
+
+  $('.op1').click(function() {
+    window.location.href = 'p1.html';
+    return false;
+  });
+
+  $(".op2").hover(function() {
+    $(".op2").css("background-color", "lightgrey");
+  });
+
+  $(".op2").mouseleave(function() {
+    $(".op2").css("background-color", "white");
+  });
+
+  $('.op2').click(function() {
+    window.location.href = 'secretending.html'
+  });
+
+  </script>
+
+</body>
+</html>

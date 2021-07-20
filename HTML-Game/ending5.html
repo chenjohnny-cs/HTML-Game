@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+
+  <div class="defaultMenuDesign">
+   <h1>Congratulations!</h1>
+   <h3>You are wide awake and trying to avoid every possible thing, blocks, goombas, bullet bills, you are scared of things that will happen. Thankfully you made it to the flag pole!</h3>
+   <h4>Ending E (5/7)</h4>
+
+   <img class="imageScale" src="https://i.ytimg.com/vi/KO23rd5B3tY/maxresdefault.jpg">
+  </div>
+
+  <div class="buttonsDesign">
+    <p class="op3">Restart?</p>
+  </div>
+
+  <script>
+  $(".op3").hover(function() {
+    $(".op3").css("background-color", "lightgrey");
+  });
+
+  $(".op3").mouseleave(function() {
+    $(".op3").css("background-color", "white");
+  });
+
+  $('.op3').click(function() {
+    window.location.href = 'index.html';
+    return false;
+  });
+
+  </script>
+
+</body>
+</html>

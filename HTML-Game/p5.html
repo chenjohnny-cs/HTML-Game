@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+
+  <div class="defaultMenuDesign">
+   <h1>Stage 5</h1>
+   <h3>The Flag Pole.</h3>
+
+   <img class="imageScale" src="http://oyster.ignimgs.com/mediawiki/apis.ign.com/super-mario-2d-working-title/a/aa/Flag_pole.png">
+
+   <h3>This is the final stretch, what you have been working towards. The flagpole. This is a make it or break it moment, how will you maneuver?</h3>
+  </div>
+
+  <div class="buttonsDesign">
+    <p class="op1">Speed is key, here I come!</p>
+    <p class="op2">Slowly and carefully.</p>
+  </div>
+
+  <script>
+  $(".op1").hover(function() {
+    $(".op1").css("background-color", "lightgrey");
+  });
+
+  $(".op1").mouseleave(function() {
+    $(".op1").css("background-color", "white");
+  });
+
+  $('.op1').click(function() {
+    window.location.href = 'ending4.html';
+    return false;
+  });
+
+  $(".op2").hover(function() {
+    $(".op2").css("background-color", "lightgrey");
+  });
+
+  $(".op2").mouseleave(function() {
+    $(".op2").css("background-color", "white");
+  });
+
+  $('.op2').click(function() {
+    window.location.href = 'ending5.html'
+  });
+
+  </script>
+
+</body>
+</html>
